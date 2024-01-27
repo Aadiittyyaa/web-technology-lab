@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Second  </title>
+</head>
+<body>
+    <div id="displayContainer"></div>
+  
+</body>
+<script  defer>
+    
+var username = localStorage.getItem("username");
+var password = localStorage.getItem("password");
+
+var displayContainer = document.getElementById("displayContainer");
+displayContainer.innerText = "Username: " + username + "\nPassword: " + password;
+</script>
+</html>
